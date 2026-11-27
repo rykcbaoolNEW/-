@@ -7,8 +7,6 @@
 
 ownerdomain=rykiscoolorg.pages.dev
 
-rev.iq, Hyg2mKe1b7bxxX7NNTip_1jY0B8, DIRECT
-rev.iq, QZBSyHlrgwIpqJ9-oDJBOqRkrQ8, DIRECT
 google.com, pub-6729046591418183, DIRECT, f08c47fec0942fa0
 google.com, pub-8106464143521063, DIRECT, f08c47fec0942fa0
 
