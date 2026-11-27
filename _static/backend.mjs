@@ -184,7 +184,7 @@ async function sendThroughWisp(request, url, pathname, referrer) {
     let body = result.body;
     const type = responseHeaders.get('content-type') || '';
     if (body && base.pathname !== '/' && pathname && target.origin === sourceOrigin && result.status === 200 && /html|javascript|css/.test(type)) {
-      body = (await result.text()).replace(/(["'\x60(])\/(?=(?:s\/|_game\/|_c\/|assets\/|(?:favicon|gn-mathtitle|refresh-icon|setting)\.png\b))/g, '$1' + base.pathname);
+      body = (await result.text()).replace(/(["'\x60(])\/(?=(?:s\/|_game\/|_c\/|assets\/|(?:favicon|ryktitle|refresh-icon|setting)\.png\b))/g, '$1' + base.pathname);
       responseHeaders.delete('etag');
     }
     return new Response(body, { status: result.status, statusText: result.statusText, headers: responseHeaders });
